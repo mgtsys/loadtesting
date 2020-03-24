@@ -1,0 +1,8 @@
+Simulating a number of concurrent user accessing the Main Page.
+Simulating a number of concurrent user accessing through different categories and products pages.
+Simulating a number of concurrent user accessing different products in single category page and proceeding with checkout.
+Simulating a number of concurrent user at Checkout with Guest user and customer login.
+Simulating a number of concurrent user on campaign page and proceeding with checkout process.
+Simulating a number of concurrent user accessing the products through filter / search and proceeding with checkout.
+Simulating high load on the server(concurrent users) to check how much can handle and make recommendations for upgrade accordingly.
+Simulating high number of concurrent during the checkout process.
