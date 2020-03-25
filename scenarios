@@ -1,26 +1,24 @@
----------------- -------------------------------------------------------------------- ------------------- 
-| Number	      | Scenario Description                                               | Status            |
----------------- -------------------------------------------------------------------- ------------------- 
-|Web Scenario 1	| Simulating a number of concurrent user accessing the Main Page     | In progress	     |
----------------- -------------------------------------------------------------------- ------------------- 
-|Web Scenario 2	| Simulating a number of concurrent user accessing through different.|                   |                  
-|               | categories and products pages			                                 | Open	             |  
----------------- -------------------------------------------------------------------- ------------------- 
-|Web Scenario 3	| Simulating a number of concurrent user accessing different products|                   |                  
-|               | in single category page and proceeding with checkout               | Open	             | 
----------------- -------------------------------------------------------------------- ------------------- 
-|Web Scenario 4	| Simulating a number of concurrent user at Checkout with Guest user |                   |                  
-|               | and customer login.                                             	 | Open	             |                  
----------------- -------------------------------------------------------------------- ------------------- 
-|Web Scenario 5	| Simulating a number of concurrent user on campaign page and        |                   |                  
-|               | proceeding with checkout process.                                  | Open	             |                  
----------------- -------------------------------------------------------------------- ------------------- 
-|Web Scenario 6	| Simulating a number of concurrent user accessing the products      |                   |                  
-|               |through filter / search and proceeding with checkout.               | Open	             |                  
----------------- -------------------------------------------------------------------- ------------------- 
-|Web Scenario 7	| Simulating high load on the server(concurrent users) to check how  |                   |                 
-|               | much can handle and make recommendations for upgrade accordingly	 | Open	             |                  
----------------- -------------------------------------------------------------------- ------------------- 
-|Web Scenario 8	| Simulating high number of concurrent during the checkout process.	 | Open	             |                  
----------------- -------------------------------------------------------------------- ------------------- 
+--> Web Scenario 1
+    Simulating a number of concurrent user accessing the Main Page
+
+--> Web Scenario 2
+    Simulating a number of concurrent user accessing through different categories and products pages	
+      
+--> Web Scenario 3
+    Simulating a number of concurrent user accessing different products in single category page and proceeding with checkout 
+      
+--> Web Scenario 4
+    Simulating a number of concurrent user at Checkout with Guest user and customer login.  
+                   
+--> Web Scenario 5
+    Simulating a number of concurrent user on campaign page and proceeding with checkout process.  
+
+--> Web Scenario 6
+    Simulating a number of concurrent user accessing the products through filter / search and proceeding with checkout.         
+
+--> Web Scenario 7
+    Simulating high load on the server(concurrent users) to check how much can handle and make recommendations for upgrade accordingly       
+ 
+--> Web Scenario 8
+    Simulating high number of concurrent during the checkout process.	
 
