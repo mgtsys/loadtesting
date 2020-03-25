@@ -1,7 +1,7 @@
 ---------------- -------------------------------------------------------------------- ------------------- -------------------
 | Number	      | Scenario Description                                               | Status	Estimation | Date             |
 ---------------- -------------------------------------------------------------------- ------------------- -------------------
-|Web Scenario 1	| Simulating a number of concurrent user accessing the Main Page		 | In progress	     | 3/27/20 3:00 PM  |
+|Web Scenario 1	| Simulating a number of concurrent user accessing the Main Page     | In progress	     | 3/27/20 3:00 PM  |
 ---------------- -------------------------------------------------------------------- ------------------- -------------------
 |Web Scenario 2	| Simulating a number of concurrent user accessing through different.|                   |                  |
 |               | categories and products pages			                                 | In progress	     | 3/30/20 3:00 PM  |
