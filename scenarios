@@ -3,10 +3,10 @@
 
 Traffic Simulation
 
-If the number of users for the first Iteration is 100.
+For example If the number of users for the first Iteration is 100.
 The traffic will be disrtibuted as under for simple web scenario 1.
 
-In the first scenario normal browsing is 10% so will simulate the traffic in which 10 users out of 100 doing normal browsing.
+The normal browsing is 10% so it will simulate the traffic in which 10 users out of 100 will be simuating normal browsing.
 And 50 users accesing catalog pages cocurrently and so on..
 
 ######
