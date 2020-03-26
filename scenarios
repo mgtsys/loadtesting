@@ -31,6 +31,7 @@ c) Compare Product (Traffic simulated 10%)
 d) Filter (Traffic simulated 30%)
    HomePage => Click on Catalog page => Advance search to select product => Add product to cart => Home Page   
 
+====================================================================================================================
 
 --> Web Scenario 2 (Guest Users)
 
@@ -44,6 +45,8 @@ c) Search (Traffic Simulated 20%)
    HomePage => Catalog Page => Search product => Add Product to cart => Checkout
    
 ==================================================================================================================
+
+#########
 
 ==================================================================================================================
 
@@ -80,6 +83,7 @@ f) Advance Filter ( Traffic 15% )
    Registered User   
    Home Page => Login In Page => HomePage  => Catalog Page => Advance Filter => Add product to cart => Checkout.
 
+===================================================================================================================
 
 --> Web Scenario 2
 
