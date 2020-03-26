@@ -1,26 +1,108 @@
-#### Scenario ####
 
---> Web Scenario 1
-    Simulating a number of concurrent user accessing the Main Page
+######
+
+Traffic Simulation
+
+If the number of users for the first Iteration is 100.
+The traffic will be disrtibuted as under for simple web scenario 1.
+
+In the first scenario normal browsing is 10% so will simulate the traffic in which 10 users out of 100 doing normal browsing.
+And 50 users accesing catalog pages cocurrently and so on..
+
+######
+
+
+
+Simple Load Testing scenario
+
+==================================================================================================================
+
+--> Web Scenario 1 (Guest Users)
+
+a) Normal Browsing (Traffic simulated 10%)
+   HomePage => Click on Random Pages => View Product => Home Page.
+
+b) Catalog Pages (Traffic simulated 50%)
+   HomePage => Click on Catalog page => View Product => Add product to Cart => Checkout 
+
+c) Compare Product (Traffic simulated 10%)
+   HomePage => Click on Catalog page => View Product => Add product to compare => Add product to cart => Checkout   
+
+d) Filter (Traffic simulated 30%)
+   HomePage => Click on Catalog page => Advance search to select product => Add product to cart => Home Page   
+
+
+--> Web Scenario 2 (Guest Users)
+
+a) Normal Browsing (Traffic simulated 10%)
+   HomePage => Click on Random Pages => View Product => Home Page.
+
+b) Sales Page (Traffic simulated 70%)
+   HomePage => Click on the Sales Page => View Products => Add product to cart => Checkout  
+
+c) Search (Traffic Simulated 20%)
+   HomePage => Catalog Page => Search product => Add Product to cart => Checkout
+   
+==================================================================================================================
+
+==================================================================================================================
+
+Complex Load Testing scenario
+
+--> Web Scenario 1 
+
+a) Normal Browsing (Traffic simulated 10%)
+   Guest Users
+   HomePage => Click on Random Pages => View Product => Home Page.
+
+b) Create an Account (Traffic simulated 5%)
+   HomePage => Create an Account page => Insert information => Submit => Home Page.
+
+c) Log In the Account (Traffic simulated 5%)
+   HomePage => Sign In Page  => Add Product  => Checkout => Home Page.   
+
+c) Follow Us Social Media ( Traffic 5%)
+   HomePage => Click on Follow Us Link  => HomePage
+
+d) Add to Wish List  ( Traffic 20 %)
+   HomePage => Login In with Register Customer => Select a Product => Add product to Wish List => Home Page   
+
+e) Switch between Catalog Pages ( Traffic 40% )
+   
+   Guest User 20% 
+   HomePage => Switch between different catalog pages => Select a Product => Add product to Cart =>> Checkout.
+
+   Registered User 20%
+   Home Page => Login In Page => HomePage  => Switch between different catalog pages => Select a Product => Add product to Cart =>> Checkout.
+   
+f) Advance Filter ( Traffic 15% )           
+
+   Registered User   
+   Home Page => Login In Page => HomePage  => Catalog Page => Advance Filter => Add product to cart => Checkout.
+
 
 --> Web Scenario 2
-    Simulating a number of concurrent user accessing through different categories and products pages	
-      
---> Web Scenario 3
-    Simulating a number of concurrent user accessing different products in single category page and proceeding with checkout 
-      
---> Web Scenario 4
-    Simulating a number of concurrent user at Checkout with Guest user and customer login.  
-                   
---> Web Scenario 5
-    Simulating a number of concurrent user on campaign page and proceeding with checkout process.  
 
---> Web Scenario 6
-    Simulating a number of concurrent user accessing the products through filter / search and proceeding with checkout.         
+a) Normal Browsing (Traffic simulated 10%)
+   Guest Users
+   HomePage => Click on Random Pages => View Product => Home Page.
 
---> Web Scenario 7
-    Simulating high load on the server(concurrent users) to check how much can handle and make recommendations for upgrade accordingly       
- 
---> Web Scenario 8
-    Simulating high number of concurrent during the checkout process.	
+b) Sale (Traffic simulated 70%)   
+
+   Guest Users 20%
+   HomePage => Click on the Sales Page => View Products => Add product to cart => Checkout.
+
+   Registered Users 50%
+   HomePage => Sign In page => Login => Click on the Sales Page => View Products => Add product to cart => Checkout.
+
+c) Admin Backend ( Traffic Simulated 5% )
+   Admin HomePage =>> Login => Edit Product => Save.
+
+d) Catalog Pages ( Traffic simulated 15%)      
+   HomePage => Click on Catalog page => Add Product to cart => Checkout 
+
+e) Filter on Sales Page (Traffic Simulated 10%)
+   Home Page => Click on the Sales Page => Filter to select the product => Add product to cart => Checkout.
+
+======================================================================================================================
 
