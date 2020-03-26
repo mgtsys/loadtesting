@@ -23,8 +23,13 @@ a) Normal Browsing (Traffic simulated 10%)
    HomePage => Click on Random Pages => View Product => Home Page.
 
 b) Catalog Pages (Traffic simulated 50%)
+   
+   Traffic Simulated 30%  
    HomePage => Click on Catalog page => View Product => Add product to Cart => Checkout 
 
+   Traffic Simulated 20%     
+   HomePage => Click on Catalog page => View Product => Home Page
+   
 c) Compare Product (Traffic simulated 10%)
    HomePage => Click on Catalog page => View Product => Add product to compare => Add product to cart => Checkout   
 
