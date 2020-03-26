@@ -69,13 +69,13 @@ b) Create an Account (Traffic simulated 5%)
 c) Log In the Account (Traffic simulated 5%)
    HomePage => Sign In Page  => Add Product  => Checkout => Home Page.   
 
-c) Follow Us Social Media ( Traffic 5%)
+d) Follow Us Social Media ( Traffic 5%)
    HomePage => Click on Follow Us Link  => HomePage
 
-d) Add to Wish List  ( Traffic 20 %)
+e) Add to Wish List  ( Traffic 20 %)
    HomePage => Login In with Register Customer => Select a Product => Add product to Wish List => Home Page   
 
-e) Switch between Catalog Pages ( Traffic 40% )
+f) Switch between Catalog Pages ( Traffic 40% )
    
    Guest User 20% 
    HomePage => Switch between different catalog pages => Select a Product => Add product to Cart =>> Checkout.
@@ -83,7 +83,7 @@ e) Switch between Catalog Pages ( Traffic 40% )
    Registered User 20%
    Home Page => Login In Page => HomePage  => Switch between different catalog pages => Select a Product => Add product to Cart =>> Checkout.
    
-f) Advance Filter ( Traffic 15% )           
+g) Advance Filter ( Traffic 15% )           
 
    Registered User   
    Home Page => Login In Page => HomePage  => Catalog Page => Advance Filter => Add product to cart => Checkout.
